@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6cdf82f77a12de0429b80e62ea9546be
+  - enabled: 1
+    path: Assets/Scenes/Play/ChooseGroupScene.unity
+    guid: 3e9773f3262f60b4fb3ae5f0b66e43f3
+  - enabled: 1
+    path: Assets/Scenes/GroupsEditor/GroupsEditor.unity
+    guid: de342f9b46731744e93244520a3daec3
+  - enabled: 1
+    path: Assets/Scenes/Play/LevelScene.unity
+    guid: 7500c21875551d840b9fe16f70967586
+  - enabled: 1
+    path: Assets/Scenes/GroupsEditor/AddGroup/CreateGroupItemScene.unity
+    guid: 4d8023d9c59f184458e4e2cc4650c9dd
+  - enabled: 1
+    path: Assets/Scenes/GroupsEditor/AddGroup/CreateFigureItemScene.unity
+    guid: 526006893e7806c4aa0f0c617257f6ec
+  - enabled: 1
+    path: Assets/Scenes/GroupsEditor/EditGroup/ShowGroupScene.unity
+    guid: 2c2bf55ed7712bf44b0ed8583d66fa99
+  - enabled: 1
+    path: Assets/Scenes/GroupsEditor/EditGroup/RoundsEditorScene.unity
+    guid: d758c8dee51f24c42ba7fd793087f898
+  - enabled: 1
+    path: Assets/Scenes/GroupsEditor/EditGroup/AddRoundScene.unity
+    guid: 484946f52a9979247aaf12b5fd1cd9d3
+  - enabled: 1
+    path: Assets/Scenes/LevelsEditor/LevelsEditorScene.unity
+    guid: 0998a4b1c1efd564c91aae52b3fcfef6
+  - enabled: 1
+    path: Assets/Scenes/LevelsEditor/AddLevelScene.unity
+    guid: 22d9614bd33bef041a82d92dfca26433
+  - enabled: 1
+    path: Assets/Scenes/Play/ChooseLevelScene.unity
+    guid: d37c36cd2b21ac849ba2ef7027ae3805
+  - enabled: 1
+    path: Assets/Scenes/Play/ShowInstructionScene.unity
+    guid: eace399389115b740bf7fff3c934bada
+  - enabled: 1
+    path: Assets/Scenes/Play/ResultsScene.unity
+    guid: b6b24d9d30543614990b5fd70f681323
+  - enabled: 1
+    path: Assets/Scenes/Play/ChooseFigureItemScene.unity
+    guid: 8ac67f19a59bd664fbb37646a229118f
+  - enabled: 1
+    path: Assets/Scenes/GroupsEditor/AddGroup/CreateSingleKeyCodeScene.unity
+    guid: aa209af5aefd82b4d98e38e460df8e58
+  m_configObjects: {}
