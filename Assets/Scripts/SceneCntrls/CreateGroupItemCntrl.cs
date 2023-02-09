@@ -33,5 +33,10 @@ namespace SceneCntrls
             _settings.GroupItem = new GroupItem(name, instruction, count);
             _sceneNavigator.GoToNextScene(IsOneKeyCode.isOn ? "CreateSingleKeyCodeScene" : "CreateFigureItemScene");
         }
+
+        public void OnClickBackBtn()
+        {
+            _sceneNavigator.GoToBackScene();
+        }
     }
 }

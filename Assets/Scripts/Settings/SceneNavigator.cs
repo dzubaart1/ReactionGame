@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace Settings
@@ -8,18 +9,17 @@ namespace Settings
         private string _currentScene;
         private Stack<string> _previousScenes;
 
-        public SceneNavigator(string prevScene, string curScene)
+        public SceneNavigator(string curScene)
         {
             _currentScene = curScene;
             _previousScenes = new Stack<string>();
-            _previousScenes.Push(prevScene);
         }
 
         public void GoToNextScene(string nextScene)
         {
             _previousScenes.Push(_currentScene);
             _currentScene = nextScene;
-            SceneManager.LoadScene(nextScene);
+            SceneManager.LoadScene(_currentScene);
         }
     
         public void GoToBackScene()

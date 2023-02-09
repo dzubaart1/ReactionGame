@@ -17,7 +17,7 @@ namespace Installers
 
         private void BindSceneNavigator()
         {
-            SceneNavigator sceneNavigator = new SceneNavigator("MainMenu","MainMenu");
+            SceneNavigator sceneNavigator = new SceneNavigator("MainMenu");
             Container.Bind<SceneNavigator>().FromInstance(sceneNavigator).AsSingle();
         }
         

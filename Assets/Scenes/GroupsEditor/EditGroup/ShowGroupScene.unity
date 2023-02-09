@@ -473,7 +473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7880456913287262714, guid: 3065746100402b24b819ac08c25b3097, type: 3}
       propertyPath: m_Text
-      value: "\u041A\u043E\u043B-\u0432\u043E \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u043E\u0432:"
+      value: "\u041A\u043E\u043B-\u0432\u043E \u0441\u043F\u0440\u0430\u0439\u0442\u043E\u0432:"
       objectReference: {fileID: 0}
     - target: {fileID: 7880456913287262714, guid: 3065746100402b24b819ac08c25b3097, type: 3}
       propertyPath: m_FontData.m_Alignment
@@ -1247,7 +1247,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7880456913287262714, guid: 3065746100402b24b819ac08c25b3097, type: 3}
       propertyPath: m_Text
-      value: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0433\u0440\u0443\u043F\u043F\u044B:"
+      value: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0438\u0433\u0440\u044B:"
       objectReference: {fileID: 0}
     - target: {fileID: 7880456913287262714, guid: 3065746100402b24b819ac08c25b3097, type: 3}
       propertyPath: m_FontData.m_Alignment

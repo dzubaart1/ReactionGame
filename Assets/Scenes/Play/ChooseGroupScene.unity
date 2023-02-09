@@ -349,7 +349,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 591fd03c64e10314c996468bb3b47533, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GroupsListCntrl: {fileID: 1969151990692830272}
 --- !u!114 &1135192938
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,7 +488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2555825505973816382, guid: 056c1edc74e1fb84a8d6d985ad1292ef, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: Menu.ChooseGroupCntrl, Assembly-CSharp
+      value: SceneCntrls.ChooseGroupCntrl, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2555825505973816382, guid: 056c1edc74e1fb84a8d6d985ad1292ef, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

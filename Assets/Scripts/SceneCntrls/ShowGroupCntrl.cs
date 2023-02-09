@@ -1,6 +1,5 @@
 ﻿using Cntrls;
 using Collections;
-using Data;
 using Settings;
 using UnityEngine;
 using UnityEngine.UI;

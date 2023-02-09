@@ -29,12 +29,17 @@ namespace SceneCntrls
 
         public void OnClickNextBtn()
         {
-            if (string.IsNullOrWhiteSpace(KeyCodeText.text))
+            if (string.IsNullOrWhiteSpace(KeyCodeText.text) || KeyCodeText.text == "KeyCode")
             {
                 return;
             }
             _temp.GroupItem.SetKeyCodeSingleMode(KeyCodeText.text);
             _sceneNavigator.GoToNextScene("CreateFigureItemScene");
+        }
+
+        public void OnClickBackBtn()
+        {
+            _sceneNavigator.GoToBackScene();
         }
     }
 }

@@ -48,7 +48,7 @@ namespace SceneCntrls
 
         public void OnClickNextBtn()
         {
-            if (string.IsNullOrWhiteSpace(SpritesDropdown.captionText.text) || string.IsNullOrWhiteSpace(KeyText.text))
+            if (string.IsNullOrWhiteSpace(SpritesDropdown.captionText.text) || string.IsNullOrWhiteSpace(KeyText.text) || KeyText.text == "KeyCode")
             {
                 return;
             }
@@ -63,6 +63,11 @@ namespace SceneCntrls
             {
                 _sceneNavigator.GoToNextScene(SceneManager.GetActiveScene().name);
             }
+        }
+
+        public void OnClickBackBtn()
+        {
+            _sceneNavigator.GoToBackScene();
         }
 
         private void InitializeSpritesDropDown(TMP_Dropdown dropdown)

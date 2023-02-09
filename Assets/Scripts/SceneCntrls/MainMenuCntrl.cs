@@ -1,6 +1,5 @@
 using Settings;
 using UnityEngine;
-using UnityEngine.UI;
 using Zenject;
 
 namespace SceneCntrls

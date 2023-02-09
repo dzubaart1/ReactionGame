@@ -32,5 +32,10 @@ namespace SceneCntrls
         
             _sceneNavigator.GoToNextScene("LevelsEditorScene");
         }
+
+        public void OnClickBackBtn()
+        {
+            _sceneNavigator.GoToBackScene();
+        }
     }
 }

@@ -304,11 +304,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3885745567051157040, guid: 056c1edc74e1fb84a8d6d985ad1292ef, type: 3}
       propertyPath: m_Text
-      value: Group Editor
+      value: 'Games Editor
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 5177934088777593825, guid: 056c1edc74e1fb84a8d6d985ad1292ef, type: 3}
       propertyPath: m_Name
-      value: GroupsEditorBtn
+      value: GamesBtn
       objectReference: {fileID: 0}
     - target: {fileID: 7558275864289074286, guid: 056c1edc74e1fb84a8d6d985ad1292ef, type: 3}
       propertyPath: m_Pivot.x
@@ -503,7 +505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2555825505973816382, guid: 056c1edc74e1fb84a8d6d985ad1292ef, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MainMenuCntrl, Assembly-CSharp
+      value: SceneCntrls.MainMenuCntrl, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2555825505973816382, guid: 056c1edc74e1fb84a8d6d985ad1292ef, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -639,8 +641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _scriptableObjectInstallers: []
-  _monoInstallers:
-  - {fileID: 1948371494}
+  _monoInstallers: []
   _installerPrefabs: []
   _autoRun: 1
   OnPreInstall:

@@ -53,9 +53,14 @@ namespace SceneCntrls
                 AverageWrongAnswersText.text =
                     Math.Round(wrongAnswersSumTime / wrongAnswers,3).ToString();
             }
-            AverageAnswersText.text = 
-                Math.Round((wrongAnswersSumTime+rightAnswersSumTime) / (wrongAnswers+rightAnswers),3).ToString();
-        
+
+            if (wrongAnswers + rightAnswers > 0)
+            {
+                AverageAnswersText.text =
+                    Math.Round((wrongAnswersSumTime + rightAnswersSumTime) / (wrongAnswers + rightAnswers), 3)
+                        .ToString();
+            }
+
             GameTimeText.text = Math.Round(_temp.Result.GameTime, 3).ToString();
         }
 
@@ -94,7 +99,7 @@ namespace SceneCntrls
                     rightAnswers++;
                     rightAnswersSumTime += _temp.Result.AnswersList[i].GetTime();
                 }
-                else if(_temp.Result.AnswersList[i].GetKeyCode() == _temp.GroupItem.KeyCodeSingleMode && !roundCntrl.GetFigireItemById(i).SpriteName.Equals(_temp.FigureItem.SpriteName))
+                else if(_temp.Result.AnswersList[i].GetKeyCode() != _temp.GroupItem.KeyCodeSingleMode && roundCntrl.GetFigireItemById(i).SpriteName.Equals(_temp.FigureItem.SpriteName))
                 {
                     wrongAnswers++;
                     wrongAnswersSumTime += _temp.Result.AnswersList[i].GetTime();
